@@ -1,0 +1,64 @@
+.converter {
+    padding: 0 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: rgb(86, 170, 61);
+}
+.date {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.title {
+    padding: 10px 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.exchanges {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 200px;
+    height: 32px;
+    margin: 0 auto;
+    color: #eff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(86, 170, 61);
+
+}
+.exchange {
+    padding: 10px 5px;
+}
+
+.exchange p {
+    font-size: 20px;
+}
+
+.exchange input {
+    font-weight: 600;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.exchange select{
+    margin-left: 4px;
+    border: none;
+    font-weight: 700;
+    color: rgb(73, 104, 63);
+}
