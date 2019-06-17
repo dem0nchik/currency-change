@@ -32,7 +32,7 @@ class App extends React.Component {
         {this.state.isLoading && <Loader/>}
 
         <Route path='/currentcurrency' component={() => <Currentcurrency currency={currency}/>} />
-        <Route exact  path='/' component={Converter}/>
+        <Route exact  path='/' component={() => <Converter currency={currency}/>}/>
       
       </div>
       </Router>

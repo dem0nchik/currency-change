@@ -28,7 +28,7 @@
 
 .exchanges {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 button {
@@ -39,6 +39,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     background-color: rgb(86, 170, 61);
+    margin-top: 40px;
 
 }
 .exchange {
@@ -59,6 +60,7 @@ button {
 .exchange select{
     margin-left: 4px;
     border: none;
+    font-size: 16px;
     font-weight: 700;
     color: rgb(73, 104, 63);
 }

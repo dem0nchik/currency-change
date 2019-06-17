@@ -6,8 +6,8 @@ class Currentcurrency extends React.Component {
     renderCurrency = () => {
         let currencyTemplate = null;
         if(this.props.currency.length) {
-            currencyTemplate = this.props.currency.map(item => {
-                return  <tr>
+            currencyTemplate = this.props.currency.map((item, index) => {
+                return  <tr key={index}>
                             <td>{item.txt}</td>
                             <td>{item.rate}</td>
                             <td>{item.cc}</td>
